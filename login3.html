@@ -1,6 +1,45 @@
 <html>
     <head>
+       
         <style>
+
+        
+            
+            .header.blur {
+                background-color: hsla(0,0%,57.6%,.1);
+                backdrop-filter: blur(20px);
+                -webkit-backdrop-filter: blur(20px);
+            }
+            .header {
+                
+                position: fixed;
+                z-index: 100;
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                padding: 16px 50px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                transition: all .2s;
+            }
+            .container{
+                color: #fff;
+                text-align: center;
+                font-size: 30px;
+                border: 2px solid lightblue;
+                border-radius: 10px;
+                height: 5cm;
+                width: 10cm;
+            }
+            .container{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                        }
+            
         video{
             width: 100vw;
             height: 100vh;
@@ -11,13 +50,33 @@
             }
         </style>
     </head>
-    
-        <body>
-            <div class="video-container">
-                <video autoplay muted loop poster="cake.jpg">
+    <body>
+        <div class="video-container">
+            <video autoplay muted loop>
                 <source src="https://lf16-fe.resso.me/obj/anote-fe/socrates/home-web/static/media/gradient.06f37abf.mp4"  type="video/webm">
-            </div>
-        </body>
+            </video>
+            <form action="#">
+                <div class="container">
+                    Login
+                    <div>
+                        <label for="user" id="user">  Email </label><br>
+                        <input type="text" id="user" required placeholder="Username/Email">
+                        <div>
+                            <label for="pass" id="pass">Password:</label>
+                            <br>
+                            <input type="password" id="pass" required placeholder="---------">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <header class="header blur">
+            
+                
+                    siva Pullaiah
+                   
+                                </header>
+    </body>
     
 </html>
 

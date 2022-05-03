@@ -35,3 +35,57 @@ body{
     height: 100%;
     align-items: center;
 }
+/*.text{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 100%;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+*/
+/*.inner{
+  background: green;
+  background-size: 400%;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ffffff;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  cursor: pointer;
+}*/
+
+.container{
+    border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 500px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+#user{
+    border-radius: 24px;
+    height: 30px;
+    text-align: center;
+    background-color: transparent;
+}
+#pass{
+    border-radius: 24px;
+    height: 30px;
+    text-align: center;
+    background-color: transparent;
+}
